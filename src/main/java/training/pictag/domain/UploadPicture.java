@@ -6,7 +6,7 @@ import java.util.Date;
 public class UploadPicture {
     private String id;
     private Date captureDate;
-    private User owner;
+    private User owner; /* 3rd komen */
     private String imageLocation;
     private BigDecimal latitude;
     private BigDecimal longitude;
