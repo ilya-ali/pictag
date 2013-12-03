@@ -2,6 +2,7 @@ package training.pictag.domain;
 import java.math.BigDecimal;
 import java.util.Date;
         /*saja komen */
+/*added second komen line*/
 public class UploadPicture {
     private String id;
     private Date captureDate;
