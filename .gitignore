@@ -1,1 +1,7 @@
-/pictag-web/target/
+# Maven output folder
+target
+
+
+# Eclipse output folder
+bin
+
