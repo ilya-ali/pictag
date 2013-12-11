@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mycompany.pictag"
+    package="training.pictag"
     android:versionCode="1"
     android:versionName="1.0.0-SNAPSHOT" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/prt_pictag"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelloAndroidActivity" >
+        <activity android:name=".LoginActivity"
+            android:label="Pictag Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainScreenActivity"
+            android:label="Pictag Main Screen" >
         </activity>
     </application>
 
